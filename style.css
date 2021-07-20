@@ -19,5 +19,7 @@ body{
 .well {
  position:relative;
  display: block;
- background-color: cornflowerblue;
+}
+.txtBuscar{
+    min-width: 100%;
 }
