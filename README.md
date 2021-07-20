@@ -1,0 +1,2 @@
+# kata1PinterestEquipo1
+ 
