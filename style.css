@@ -1,20 +1,70 @@
+*, *:before, *:after {box-sizing:  border-box !important;}
 body{
     background-color: blueviolet;
 }
-*, *:before, *:after {box-sizing:  border-box !important;}
-.row {
+.fila {
  -moz-column-width: 18em;
  -webkit-column-width: 18em;
  -moz-column-gap: 1em;
  -webkit-column-gap:1em; 
+ background-color: aquamarine;
   
 }
 .item {
  display: inline-block;
  padding:  .25rem;
  width:  100%; 
+ background-color: brown;
 }
 .well {
  position:relative;
  display: block;
+}
+.txtBuscar{
+    min-width: 100%;
+}
+.imagen{
+    width: 18em;
+}
+
+/* menu */
+header{
+    background: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.logo img
+{
+  width:30px;
+}
+li.search, input {
+    width: 200px;
+    flex-grow: 1;
+    overflow-x: hidden;
+    border-radius: 4px;
+}
+input {
+    width: 100%;
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 40px;
+    padding: 10px;
+}
+input[placeholder="Buscar"] {
+    font-size: 16px;
+    color: #9c9b9b;
+    font-weight: 700;
+}
+li {
+    margin: auto 20px;
+    justify-content: flex-end;
+}
+i.icono {
+    font-size: 28px;
+    color: #9c9b9b;
 }
