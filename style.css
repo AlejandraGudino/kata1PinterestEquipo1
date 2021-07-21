@@ -1,6 +1,6 @@
 *, *:before, *:after {box-sizing:  border-box !important;}
 body{
-    background-color: blueviolet;
+    background-color: rgb(246, 252, 245);
 }
 .fila {
  -moz-column-width: 18em;
