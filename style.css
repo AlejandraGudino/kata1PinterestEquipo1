@@ -65,19 +65,30 @@ li {
     justify-content: flex-end;
 }
 i.icono {
-    font-size: 28px;
+    font-size: 23px;
     color: #9c9b9b;
 }
 /* responsive */
 .inicio{
-    display: none !important;
+    display: none;
+}
+.search_icono{
+    display: none;
 }
 @media screen and (max-width: 768px) {
     .tendencia{
         display: none;
     }
     .inicio{
-        display: block !important;
+        display: block;
+    }
+}
+@media screen and (max-width: 568px) {
+    .search_icono{
+        display: block;
+    }
+    .search{
+        display: none;
     }
 }
 
@@ -126,3 +137,8 @@ i.icono {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .modal-dialog-centered{
+    align-items: center;
+    justify-content: center;
+  }
